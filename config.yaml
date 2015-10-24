@@ -3,4 +3,4 @@ name: YOUR_APP_NAME
 
  libraries:
  - name: django
-   version: "1.6"
+   version: "1.8"
