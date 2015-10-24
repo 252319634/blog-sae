@@ -1,6 +1,10 @@
-name: YOUR_APP_NAME
- version: 1
+name: vmaig_blog
+version: 1
 
- libraries:
- - name: django
-   version: "1.8"
+libraries:
+- name: "django"
+  version: "1.8.5"                #注意前面有空格
+
+handlers:
+- url: /static
+  static_dir: static
