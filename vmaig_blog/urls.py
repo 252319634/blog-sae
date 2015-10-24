@@ -13,3 +13,5 @@ urlpatterns = patterns('',
     url(r'',include('vmaig_comments.urls')),
     url(r'',include('vmaig_auth.urls')),
 )
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+urlpatterns += staticfiles_urlpatterns()
